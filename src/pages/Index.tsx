@@ -4,13 +4,14 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import WallOfLove from "@/components/WallOfLove";
 import BenefitsSection from "@/components/BenefitsSection";
-import FloatingCards from "@/components/FloatingCards";
 import AIToolsSection from "@/components/AIToolsSection";
 import TargetAudienceSection from "@/components/TargetAudienceSection";
 import InstructorSection from "@/components/InstructorSection";
 import CTASection from "@/components/CTASection";
+import CertificateSection from "@/components/CertificateSection";
+import FAQSection from "@/components/FAQSection";
+import FloatingCards from "@/components/FloatingCards";
 import Footer from "@/components/Footer";
-import PricingSticky from "@/components/PricingSticky";
 
 const Index = () => {
   return (
@@ -20,13 +21,14 @@ const Index = () => {
       <HeroSection />
       <WallOfLove />
       <BenefitsSection />
-      <FloatingCards />
       <AIToolsSection />
       <TargetAudienceSection />
       <InstructorSection />
       <CTASection />
+      <FloatingCards />
+      <CertificateSection />
+      <FAQSection />
       <Footer />
-      <PricingSticky />
     </div>
   );
 };

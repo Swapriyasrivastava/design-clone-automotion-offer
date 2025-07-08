@@ -1,39 +1,32 @@
 
 const HeroSection = () => {
-  const instructors = [
-    {
-      name: "Raghuveer",
-      role: "Brand mktg. manager",
-      company: "UBER",
-      image: "https://d31bwppm8yl9g2.cloudfront.net/learner/gs/ait1.svg"
-    },
-    {
-      name: "Priyanku Sarmah",
-      role: "Visual Art Director",
-      company: "SAMURAI",
-      image: "https://d31bwppm8yl9g2.cloudfront.net/learner/gs/ait2.svg",
-      highlight: true
-    },
-    {
-      name: "Manish M",
-      role: "Founder",
-      company: "GROWW STACKS",
-      image: "https://d31bwppm8yl9g2.cloudfront.net/learner/gs/ait3.svg"
-    },
-    {
-      name: "K V S Dileep",
-      role: "Head of AI initiatives",
-      company: "GROWTHSCHOOL",
-      image: "https://d31bwppm8yl9g2.cloudfront.net/learner/gs/ait4.svg",
-      highlight: true
-    }
-  ];
-
   return (
     <section className="bg-gray-50 py-16 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
+            <div className="flex items-center gap-8 mb-8">
+              <img 
+                src="https://d31bwppm8yl9g2.cloudfront.net/learner/gs/newgsblack.svg" 
+                alt="Growth School" 
+                className="h-8"
+              />
+              <div className="flex items-center gap-4">
+                <img 
+                  src="https://d31bwppm8yl9g2.cloudfront.net/learner/gs/tps.svg" 
+                  alt="LinkedIn Top Startup India" 
+                  className="h-6"
+                />
+              </div>
+            </div>
+
+            <div className="flex items-center gap-6 mb-8">
+              <div className="flex items-center gap-2">
+                <span className="bg-red-600 text-white px-2 py-1 rounded text-sm">● Live</span>
+                <span className="text-sm">3 Day Mastermind: 11th to 13th July</span>
+              </div>
+            </div>
+
             <h1 className="text-5xl font-bold mb-6">
               The <span className="text-green-500">AI Marketing Breakthrough Formula</span>
             </h1>
@@ -64,24 +57,6 @@ const HeroSection = () => {
               alt="AI Marketing Mastermind" 
               className="w-full max-w-md mx-auto"
             />
-            
-            <div className="absolute -right-4 top-8 grid grid-cols-2 gap-4">
-              {instructors.map((instructor, index) => (
-                <div 
-                  key={index}
-                  className={`bg-white rounded-lg p-3 shadow-lg border-2 ${
-                    instructor.highlight 
-                      ? 'border-green-500 animate-float' 
-                      : 'border-gray-200'
-                  } max-w-[120px]`}
-                >
-                  <div className="w-12 h-12 bg-gray-200 rounded-full mb-2 mx-auto"></div>
-                  <h4 className="font-semibold text-xs text-center">{instructor.name}</h4>
-                  <p className="text-xs text-gray-600 text-center">{instructor.role}</p>
-                  <p className="text-xs font-bold text-center">{instructor.company}</p>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </div>
