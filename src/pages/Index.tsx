@@ -9,7 +9,9 @@ import AIToolsSection from "@/components/AIToolsSection";
 import TargetAudienceSection from "@/components/TargetAudienceSection";
 import InstructorSection from "@/components/InstructorSection";
 import CTASection from "@/components/CTASection";
+import TrustedBrands from "@/components/TrustedBrands";
 import FloatingCards from "@/components/FloatingCards";
+import TopExpertsSection from "@/components/TopExpertsSection";
 import CertificateSection from "@/components/CertificateSection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
@@ -27,7 +29,9 @@ const Index = () => {
       <TargetAudienceSection />
       <InstructorSection />
       <CTASection />
+      <TrustedBrands />
       <FloatingCards />
+      <TopExpertsSection />
       <CertificateSection />
       <FAQSection />
       <Footer />

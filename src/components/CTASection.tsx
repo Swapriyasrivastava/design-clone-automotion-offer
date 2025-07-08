@@ -41,34 +41,6 @@ const CTASection = () => {
             </button>
           </div>
         </div>
-
-        <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold mb-12">Trusted by Top Brands</h3>
-          
-          <div className="grid grid-cols-3 md:grid-cols-7 gap-8 items-center opacity-60">
-            <div className="bg-gray-200 rounded-lg p-4 h-16 flex items-center justify-center">
-              <span className="text-gray-600 font-bold">Uber</span>
-            </div>
-            <div className="bg-gray-200 rounded-lg p-4 h-16 flex items-center justify-center">
-              <span className="text-gray-600 font-bold">Domino's</span>
-            </div>
-            <div className="bg-gray-200 rounded-lg p-4 h-16 flex items-center justify-center">
-              <span className="text-gray-600 font-bold">Shell</span>
-            </div>
-            <div className="bg-gray-200 rounded-lg p-4 h-16 flex items-center justify-center">
-              <span className="text-gray-600 font-bold">TATA</span>
-            </div>
-            <div className="bg-gray-200 rounded-lg p-4 h-16 flex items-center justify-center">
-              <span className="text-gray-600 font-bold">Shiprocket</span>
-            </div>
-            <div className="bg-gray-200 rounded-lg p-4 h-16 flex items-center justify-center">
-              <span className="text-gray-600 font-bold">Aditya Birla</span>
-            </div>
-            <div className="bg-gray-200 rounded-lg p-4 h-16 flex items-center justify-center">
-              <span className="text-gray-600 font-bold">Siloam</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
